@@ -195,9 +195,6 @@ func main() {
 
         fmt.Print("GPU VRAM (GB): ")
         fmt.Scanln(&gpu.VRAM)
-    } else {
-        gpu.Cores = 0
-        gpu.VRAM = 0
     }
 
     // RAM input
